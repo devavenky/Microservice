@@ -1,6 +1,6 @@
 package com.management.UserMS.dto;
 
-import com.management.UserMS.entity.Buyer;
+
 import com.management.UserMS.entity.Wishlist;
 
 public class WishlistDTO {

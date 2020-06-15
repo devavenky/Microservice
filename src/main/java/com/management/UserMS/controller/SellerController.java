@@ -5,18 +5,13 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.CrossOrigin;
-import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.management.UserMS.dto.BuyerDTO;
-import com.management.UserMS.dto.BuyerLoginDTO;
+
 import com.management.UserMS.dto.SellerDTO;
-import com.management.UserMS.dto.SellerLoginDTO;
-import com.management.UserMS.entity.Seller;
-import com.management.UserMS.repository.SellerRepository;
 import com.management.UserMS.service.SellerService;
 
 @RestController

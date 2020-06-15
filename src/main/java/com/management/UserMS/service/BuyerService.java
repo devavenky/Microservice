@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.regex.Pattern;
 import javax.naming.InvalidNameException;
-import javax.validation.Validator;
+
 
 import org.slf4j.Logger;
 
@@ -13,10 +13,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
 
-//import com.management.UserMS.Validator.BuyerValidator;
+
 import com.management.UserMS.dto.BuyerDTO;
 import com.management.UserMS.dto.CartDTO;
-import com.management.UserMS.dto.OrderDetailsDTO;
+
 import com.management.UserMS.dto.ProductDTO;
 import com.management.UserMS.dto.WishlistDTO;
 import com.management.UserMS.entity.Buyer;
@@ -25,16 +25,14 @@ import com.management.UserMS.entity.Wishlist;
 import com.management.UserMS.repository.BuyerRepository;
 import com.management.UserMS.repository.CartRepository;
 import com.management.UserMS.repository.WishlistRepository;
-//import com.team4.ordermanagement.product.entity.Product;
-//import com.team4.ordermanagement.product.entity.Product;
+
 @Service
 public class BuyerService {
 	private static final Logger logger = LoggerFactory.getLogger(BuyerService.class);
 	@Autowired
 	BuyerRepository buyerRepo;
 	
-//	@Autowired
-//	BuyerValidator buyerValidator;
+
 	@Autowired
 	WishlistRepository wishlistRepo;
 
@@ -43,7 +41,7 @@ public class BuyerService {
 
 	
 	
-	public String registerBuyer(BuyerDTO buyerDTO) throws Exception {
+	public String registerBuyer(BuyerDTO buyerDTO)throws Exception  {
 		
 		try {
 		logger.info("Registration request for user {}", buyerDTO);
@@ -52,7 +50,7 @@ public class BuyerService {
 		buyerRepo.save(be);
 		return("new user created");
 		}catch(Exception e) {
-			throw new Exception("Name is not valid");
+			throw new Exception(e.getMessage());
 		}
 	}
 	private void validateBuyer(BuyerDTO buyerDTO) throws Exception {
@@ -256,106 +254,3 @@ public boolean IsPrivileged(Integer buyerId) {
 		
 	}
 }
-//	public List<OrderDetailsDTO> allOrders(Integer buyerId) {
-//		// TODO Auto-generated method stub
-//		OrderDetailsDTO orderDetailsDTO=new OrderDetailsDTO();
-//		orderDetailsDTO.setBuyerid(buyerId);
-//		
-//		
-//	}
-//	
-//	
-//}
-//	
-//	public int getRewardPoint(int buyerId) {
-//		System.out.println("inside buyer service"+buyerId);
-//		BuyerEntity buyerEntity=buyerRepository.findByBuyerId(buyerId);
-//		System.out.println(buyerEntity);
-//		return buyerEntity.getRewardPoints();
-//
-//		
-//	}
-//	
-//	public void updateRewardPoint(int buyerId, int point) {
-//		BuyerEntity buyerEntity =buyerRepository.findByBuyerId(buyerId);
-//		buyerEntity.setRewardPoints(point);
-//		buyerRepository.save(buyerEntity);
-//		
-//	}
-//	
-//	public boolean IsPrivileged(int buyerId) {
-//		
-//		BuyerEntity buyerEntity= buyerRepository.findByBuyerId(buyerId);
-//		
-//		if((buyerEntity.isPrivileged())==false) {
-//			
-//			return false;
-//		}
-//		else {
-//			
-//			return true;
-//		}
-//		
-//	}
-//	
-//	public void updateBuyerPrivilege(String email,boolean privilege) throws UserException {
-//		BuyerEntity buyerEntity= buyerRepository.findByEmail(email);
-//		System.out.println("=====service========");
-//		if(buyerEntity!=null){
-//			if(buyerEntity.isPrivileged()) {
-//				if(!privilege) {
-//					buyerEntity.setPrivileged(privilege);
-//				    buyerRepository.save(buyerEntity);
-//					
-//				}
-//				else {
-//				throw new AlreadyPrivilegeException("Buyer.ALREADY_PRIVILEGE");
-//				}
-//			}
-//			else if(!(buyerEntity.isPrivileged())) {
-//				if(privilege) {
-//					if(buyerEntity.getRewardPoints()<10000) {
-//						throw new InSufficientRewardPoint("Buyer.INSUFFICIENT_REWARD_POINTS");
-//					}
-//					else {
-//						buyerEntity.setPrivileged(privilege);
-//						buyerEntity.setRewardPoints(buyerEntity.getRewardPoints()-10000);
-//						buyerRepository.save(buyerEntity);
-//					}
-//					
-//				}
-//				else {
-//					
-//					throw new AlreadyNotPrivilegeException("Buyer.ALREADY_NOT_PRIVILEGE");
-//					
-//				}
-//			}
-//		buyerEntity.setPrivileged(privilege);
-//	    buyerRepository.save(buyerEntity);
-//		}
-//		else {
-//			throw new InvalidEmailIdException("Buyer.INVALID_EMAIL");
-//		}
-//		
-//	}
-//	
-//	public Buyer getBuyerDetails(String email) throws UserException {
-//		BuyerEntity buyerEntity= buyerRepository.findByEmail(email);
-//		if(buyerEntity!=null) {
-//		Buyer buyer=new Buyer();
-//		BeanUtils.copyProperties(buyerEntity, buyer);
-//		return buyer;
-//		}
-//		else {
-//			throw new InvalidEmailIdException("Buyer.INVALID_EMAIL");
-//		}
-//		
-//	}
-//	
-//	
-//	
-//	
-//	
-//	
-//	
-//}

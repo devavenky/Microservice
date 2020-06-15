@@ -1,6 +1,6 @@
 package com.management.UserMS.dto;
 
-//import com.team4.ordermanagement.product.entity.Product;
+
 
 
 public class ProductDTO {
@@ -61,7 +61,7 @@ public class ProductDTO {
 		return Rating;
 	}
 	public void setRating(int rating) {
-		this.Rating = Rating;
+		Rating = rating;
 	}
 	public int getSellerId() {
 		return sellerId;
@@ -82,47 +82,5 @@ public class ProductDTO {
 		this.subCategory = subCategory;
 	}
 	
-//	public Product createEntity() {
-//		// TODO Auto-generated method stub
-//		Product product = new Product();
-//		product.setBrand(this.getBrand());
-//		product.setCategory(this.getCategory());
-//		product.setDescription(this.getDescription());
-//		product.setImage(this.getImage());
-//		product.setPrice(this.getPrice());
-//		product.setProdId(this.getProdId());
-//		product.setProductName(this.getProductName());
-//		product.setRating(this.getRating());
-//		product.setSellerId(this.getSellerId());
-//		product.setStock(this.getStock());
-//		product.setSubCategory(this.getSubCategory());
-//		
-//		
-//		
-//		return product;
-//		
-//	}
-//	
-//	// Converts Entity into DTO
-//	public static ProductDTO valueOf(Product product) {
-//		// TODO Auto-generated method stub
-//		ProductDTO productDTO=new ProductDTO();
-//		productDTO.setBrand(product.getBrand());
-//		productDTO.setCategory(product.getCategory());
-//		productDTO.setDescription(product.getDescription());
-//		productDTO.setImage(product.getImage());
-//		productDTO.setPrice(product.getPrice());
-//		productDTO.setProdId(product.getProdId());
-//		productDTO.setProductName(product.getProductName());
-//		productDTO.setRating(product.getRating());
-//		productDTO.setSellerId(product.getSellerId());
-//		productDTO.setStock(product.getStock());
-//		productDTO.setSubCategory(product.getSubCategory());
-//		
-//		return productDTO;
-//	}
-//	
-//	
-//	
-//
+
 }

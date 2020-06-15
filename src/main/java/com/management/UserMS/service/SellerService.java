@@ -4,23 +4,17 @@ import java.util.regex.Pattern;
 
 import javax.naming.InvalidNameException;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestBody;
 
-import com.management.UserMS.controller.SellerController;
-import com.management.UserMS.dto.BuyerDTO;
 import com.management.UserMS.dto.SellerDTO;
-import com.management.UserMS.dto.SellerLoginDTO;
-import com.management.UserMS.entity.Buyer;
+
 import com.management.UserMS.entity.Seller;
 import com.management.UserMS.repository.SellerRepository;
 @Service
 public class SellerService {
-	private static final Logger LOGGER = LoggerFactory.getLogger(SellerController.class);
+
 	@Autowired
 	SellerRepository sellerRepo;
 	

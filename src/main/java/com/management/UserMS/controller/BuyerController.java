@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
-//import org.springframework.web.bind.annotation.PathVariable;
+
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -18,14 +18,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.client.RestTemplate;
 
-//import com.infosys.infytel.customer.dto.PlanDTO;
-//import com.management.UserMS.Validator.BuyerValidator;
+
 import com.management.UserMS.dto.BuyerDTO;
 import com.management.UserMS.dto.CartDTO;
-import com.management.UserMS.dto.OrderDetailsDTO;
 import com.management.UserMS.dto.ProductDTO;
 import com.management.UserMS.dto.WishlistDTO;
-import com.management.UserMS.entity.Buyer;
 import com.management.UserMS.repository.CartRepository;
 import com.management.UserMS.repository.WishlistRepository;
 import com.management.UserMS.service.BuyerService;
@@ -107,13 +104,13 @@ public class BuyerController {
 	
 	@PostMapping(value = "buyer/products/wishlist/{buyerId}",consumes = MediaType.APPLICATION_JSON_VALUE)
 	public void addProducttoWishlist(@PathVariable Integer buyerId,@RequestBody ProductDTO productDTO) {
-		productDTO= new RestTemplate().getForObject("http://localhost:3457/products"+productDTO.getProdId(),ProductDTO.class);
+		productDTO= new RestTemplate().getForObject("http://localhost:9001/products"+productDTO.getProdId(),ProductDTO.class);
 		buyerService.addProductTowishlist(productDTO);
 	}
 	
 	@PostMapping(value = "buyer/products/cart/{buyerId}",consumes = MediaType.APPLICATION_JSON_VALUE)
 	public void addProducttoCart(@PathVariable Integer buyerId,@RequestBody ProductDTO productDTO) {
-		productDTO= new RestTemplate().getForObject("http://localhost:3457/products"+productDTO.getProdId(),ProductDTO.class);
+		productDTO= new RestTemplate().getForObject("http://localhost:9001/products"+productDTO.getProdId(),ProductDTO.class);
 		buyerService.addProductToCart(productDTO);
 	}
 	
@@ -143,14 +140,7 @@ public class BuyerController {
 		return buyerService.allCartItems(buyerId);
 	}
 	
-//	@GetMapping(value = "buyer/orders/{buyerId}")
-//	public List<OrderDetailsDTO> allOrders(@PathVariable Integer buyerId,@RequestBody OrderDetailsDTO orderDetailsDTO) {
-//		System.out.println("to display all orders");
-//		orderDetailsDTO= new RestTemplate().getForObject("http://localhost:3457/products"+ orderDetailsDTO.getOrderid(),OrderDetailsDTO.class);
-//		return buyerService.allOrders(buyerId);
-//	}
-//	
-	
+
 }
 
 
