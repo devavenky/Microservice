@@ -1,0 +1,17 @@
+
+Bcom.management.UserMS.entity.Buyer#getPassword()Ljava/lang/String;I
+?V:/UserMS/src/main/java/com/management/UserMS/entity/Buyer.java; ;("1*Ú
+1I
+?V:/UserMS/src/main/java/com/management/UserMS/entity/Buyer.java<	 <(¢
+Ÿ
+I
+?V:/UserMS/src/main/java/com/management/UserMS/entity/Buyer.java<	 <(
+%0java.lang.String"__id*4*2$
+"com.management.UserMS.entity.Buyer"
+
+password"e
+I
+?V:/UserMS/src/main/java/com/management/UserMS/entity/Buyer.java< <(
+
+%0java.lang.StringB&$
+"com.management.UserMS.entity.Buyer

@@ -1,0 +1,16 @@
+
+Gcom.management.UserMS.dto.OrderDetailsDTO#getStatus()Ljava/lang/String;P
+FV:/UserMS/src/main/java/com/management/UserMS/dto/OrderDetailsDTO.java8 8("1*ô
+1P
+FV:/UserMS/src/main/java/com/management/UserMS/dto/OrderDetailsDTO.java9	 9(®
+«
+P
+FV:/UserMS/src/main/java/com/management/UserMS/dto/OrderDetailsDTO.java9	 9(
+%0java.lang.String"__id*9*7+
+)com.management.UserMS.dto.OrderDetailsDTO"
+status"l
+P
+FV:/UserMS/src/main/java/com/management/UserMS/dto/OrderDetailsDTO.java9 9(
+
+%0java.lang.StringB-+
+)com.management.UserMS.dto.OrderDetailsDTO

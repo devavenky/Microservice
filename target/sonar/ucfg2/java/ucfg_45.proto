@@ -1,0 +1,140 @@
+
+@com.management.UserMS.dto.SellerDTO#toString()Ljava/lang/String;J
+@V:/UserMS/src/main/java/com/management/UserMS/dto/SellerDTO.javaJ J("1*¬
+1J
+@V:/UserMS/src/main/java/com/management/UserMS/dto/SellerDTO.javaK	 K(•
+¢
+J
+@V:/UserMS/src/main/java/com/management/UserMS/dto/SellerDTO.javaK! K()
+%0java.lang.Integer"__id*5*3%
+#com.management.UserMS.dto.SellerDTO"
+
+sellerId¶
+£
+J
+@V:/UserMS/src/main/java/com/management/UserMS/dto/SellerDTO.javaK	 K()
+%1java.lang.String"__concat*
+SellerDTO [SellerId=*
+
+%0java.lang.Integerñ
+ì
+J
+@V:/UserMS/src/main/java/com/management/UserMS/dto/SellerDTO.javaK	 K(3
+%2java.lang.String"__concat*
+
+%1java.lang.String*	
+Name=†
+ù
+J
+@V:/UserMS/src/main/java/com/management/UserMS/dto/SellerDTO.javaK5 K(9
+%3java.lang.String"__id*1*/%
+#com.management.UserMS.dto.SellerDTO"
+name•
+¢
+J
+@V:/UserMS/src/main/java/com/management/UserMS/dto/SellerDTO.javaK	 K(9
+%4java.lang.String"__concat*
+
+%2java.lang.String*
+
+%3java.lang.Stringó
+î
+J
+@V:/UserMS/src/main/java/com/management/UserMS/dto/SellerDTO.javaK	 K(B
+%5java.lang.String"__concat*
+
+%4java.lang.String*
+
+Email=°
+û
+J
+@V:/UserMS/src/main/java/com/management/UserMS/dto/SellerDTO.javaKD K(I
+%6java.lang.String"__id*2*0%
+#com.management.UserMS.dto.SellerDTO"
+email•
+¢
+J
+@V:/UserMS/src/main/java/com/management/UserMS/dto/SellerDTO.javaK	 K(I
+%7java.lang.String"__concat*
+
+%5java.lang.String*
+
+%6java.lang.Stringù
+ö
+J
+@V:/UserMS/src/main/java/com/management/UserMS/dto/SellerDTO.javaK	 K(Y
+%8java.lang.String"__concat*
+
+%7java.lang.String*
+Phonenumber=ß
+§
+J
+@V:/UserMS/src/main/java/com/management/UserMS/dto/SellerDTO.javaK[ K(f
+%9java.lang.String"__id*8*6%
+#com.management.UserMS.dto.SellerDTO"
+phoneNumber¶
+£
+J
+@V:/UserMS/src/main/java/com/management/UserMS/dto/SellerDTO.javaK	 K(f
+%10java.lang.String"__concat*
+
+%8java.lang.String*
+
+%9java.lang.Stringõ
+ò
+J
+@V:/UserMS/src/main/java/com/management/UserMS/dto/SellerDTO.javaK	 K(r
+%11java.lang.String"__concat*
+
+%10java.lang.String*
+
+Password•
+¢
+J
+@V:/UserMS/src/main/java/com/management/UserMS/dto/SellerDTO.javaKt K(|
+%12java.lang.String"__id*5*3%
+#com.management.UserMS.dto.SellerDTO"
+
+password®
+•
+J
+@V:/UserMS/src/main/java/com/management/UserMS/dto/SellerDTO.javaK	 K(|
+%13java.lang.String"__concat*
+
+%11java.lang.String*
+
+%12java.lang.Stringú
+ô
+J
+@V:/UserMS/src/main/java/com/management/UserMS/dto/SellerDTO.javaK	 L(
+%14java.lang.String"__concat*
+
+%13java.lang.String*
+	IsActive=¶
+£
+J
+@V:/UserMS/src/main/java/com/management/UserMS/dto/SellerDTO.javaL L(
+%15java.lang.Boolean"__id*5*3%
+#com.management.UserMS.dto.SellerDTO"
+
+isActive©
+¶
+J
+@V:/UserMS/src/main/java/com/management/UserMS/dto/SellerDTO.javaK	 L(
+%16java.lang.String"__concat*
+
+%14java.lang.String*
+
+%15java.lang.Booleanî
+ë
+J
+@V:/UserMS/src/main/java/com/management/UserMS/dto/SellerDTO.javaK	 L(
+%17java.lang.String"__concat*
+
+%16java.lang.String*
+]"g
+J
+@V:/UserMS/src/main/java/com/management/UserMS/dto/SellerDTO.javaK L( 
+
+%17java.lang.StringB'%
+#com.management.UserMS.dto.SellerDTO

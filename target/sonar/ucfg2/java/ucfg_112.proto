@@ -1,0 +1,18 @@
+
+Mcom.management.UserMS.service.SellerService#isValidEmail(Ljava/lang/String;)ZR
+HV:/UserMS/src/main/java/com/management/UserMS/service/SellerService.javaL L("1*Ã
+1R
+HV:/UserMS/src/main/java/com/management/UserMS/service/SellerService.javaN	 N(‹
+ˆ
+R
+HV:/UserMS/src/main/java/com/management/UserMS/service/SellerService.javaN	 N(9
+%0boolean"Ljava.util.regex.Pattern#matches(Ljava/lang/String;Ljava/lang/CharSequence;)Z*"
+java.util.regex.Pattern*
+^[A-Za-z0-9+_.-]+@(.+)$*
+
+emailjava.lang.String"\
+R
+HV:/UserMS/src/main/java/com/management/UserMS/service/SellerService.javaN N(:
+"":
+emailjava.lang.StringB/-
++com.management.UserMS.service.SellerService

@@ -1,0 +1,16 @@
+
+Icom.management.UserMS.dto.OrderDetailsDTO#getBuyerid()Ljava/lang/Integer;P
+FV:/UserMS/src/main/java/com/management/UserMS/dto/OrderDetailsDTO.java& &("1*÷
+1P
+FV:/UserMS/src/main/java/com/management/UserMS/dto/OrderDetailsDTO.java'	 '(°
+­
+P
+FV:/UserMS/src/main/java/com/management/UserMS/dto/OrderDetailsDTO.java'	 '(
+%0java.lang.Integer"__id*:*8+
+)com.management.UserMS.dto.OrderDetailsDTO"	
+buyerid"m
+P
+FV:/UserMS/src/main/java/com/management/UserMS/dto/OrderDetailsDTO.java' '(
+
+%0java.lang.IntegerB-+
+)com.management.UserMS.dto.OrderDetailsDTO

@@ -1,0 +1,16 @@
+
+Dcom.management.UserMS.dto.WishlistDTO#getProdId()Ljava/lang/Integer;L
+BV:/UserMS/src/main/java/com/management/UserMS/dto/WishlistDTO.java ("1*æ
+1L
+BV:/UserMS/src/main/java/com/management/UserMS/dto/WishlistDTO.java	 (§
+¤
+L
+BV:/UserMS/src/main/java/com/management/UserMS/dto/WishlistDTO.java	 (
+%0java.lang.Integer"__id*5*3'
+%com.management.UserMS.dto.WishlistDTO"
+prodId"i
+L
+BV:/UserMS/src/main/java/com/management/UserMS/dto/WishlistDTO.java (
+
+%0java.lang.IntegerB)'
+%com.management.UserMS.dto.WishlistDTO

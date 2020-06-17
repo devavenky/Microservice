@@ -1,0 +1,16 @@
+
+Icom.management.UserMS.dto.OrderDetailsDTO#getOrderid()Ljava/lang/Integer;P
+FV:/UserMS/src/main/java/com/management/UserMS/dto/OrderDetailsDTO.java2 2("1*÷
+1P
+FV:/UserMS/src/main/java/com/management/UserMS/dto/OrderDetailsDTO.java3	 3(°
+­
+P
+FV:/UserMS/src/main/java/com/management/UserMS/dto/OrderDetailsDTO.java3	 3(
+%0java.lang.Integer"__id*:*8+
+)com.management.UserMS.dto.OrderDetailsDTO"	
+orderid"m
+P
+FV:/UserMS/src/main/java/com/management/UserMS/dto/OrderDetailsDTO.java3 3(
+
+%0java.lang.IntegerB-+
+)com.management.UserMS.dto.OrderDetailsDTO

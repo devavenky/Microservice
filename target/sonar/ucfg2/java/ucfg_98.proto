@@ -1,0 +1,17 @@
+
+Ccom.management.UserMS.entity.Buyer#getIsActive()Ljava/lang/Boolean;I
+?V:/UserMS/src/main/java/com/management/UserMS/entity/Buyer.javaH H("1*Ü
+1I
+?V:/UserMS/src/main/java/com/management/UserMS/entity/Buyer.javaI	 I(£
+ 
+I
+?V:/UserMS/src/main/java/com/management/UserMS/entity/Buyer.javaI	 I(
+%0java.lang.Boolean"__id*4*2$
+"com.management.UserMS.entity.Buyer"
+
+isActive"f
+I
+?V:/UserMS/src/main/java/com/management/UserMS/entity/Buyer.javaI I(
+
+%0java.lang.BooleanB&$
+"com.management.UserMS.entity.Buyer
